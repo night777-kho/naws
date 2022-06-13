@@ -1,0 +1,613 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo';
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13,110,253;
+    --bs-secondary-rgb: 108,117,125;
+    --bs-success-rgb: 25,135,84;
+    --bs-info-rgb: 13,202,240;
+    --bs-warning-rgb: 255,193,7;
+    --bs-danger-rgb: 220,53,69;
+    --bs-light-rgb: 248,249,250;
+    --bs-dark-rgb: 33,37,41;
+    --bs-white-rgb: 255,255,255;
+    --bs-black-rgb: 0,0,0;
+    --bs-body-color-rgb: 33,37,41;
+    --bs-body-bg-rgb: 255,255,255;
+    --bs-color-officer: #16a085;
+}
+
+
+
+    .navbar-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--bs-white);
+        padding: 10px 15%;
+        box-shadow: black 0px 0px 20px -9px;
+        position: fixed;
+        width: 100%;
+    }
+
+    .navbar-nav ul li{
+        display: inline-block;
+        margin: 5px;
+        list-style: none;
+    }
+
+    .navbar-nav ul li a{
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.562);
+        font-weight: 600;
+        transition: all ease 0.5s 0s;
+    }
+
+    .nav-logo{
+        color: rgba(0, 0, 0, 0.562);
+        text-transform: capitalize;
+        font-size: 30px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .nav-logo i{
+        color: rgb(22, 160, 133);
+    }
+
+    .navbar-nav ul li a:hover{
+        color: #16a085;
+    }
+
+    .navbar-nav ul li a:focus{
+        color: #16a085;
+    }
+/* end navbar */
+/* end navbar *//* end navbar *//* end navbar *//* end navbar *//* end navbar *//* end navbar *//* end navbar *//* end navbar *//* end navbar *//* end navbar *//* end navbar *//* end navbar *//* end navbar *//* end navbar *//* end navbar */
+
+.content-home{
+    padding: 6% 5%;
+    padding-bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color: var(--bs-gray-200);
+}
+
+.content-home .title-home h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.753);
+    text-shadow: rgba(0, 0, 0, 0.247) 3px 4px 4px;
+}
+
+.content-home .title-home p{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.content-home .title-home button{
+    padding: 1px 22px;
+    font-size: 19px;
+    font-weight: 600;
+    background: transparent;
+    border: solid 2px #16a085;
+    color: #16a085;
+    text-transform: capitalize;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+    box-shadow: rgb(0 0 0 / 24%) 4px 0px 4px;
+    cursor: pointer;
+}
+
+.content-home .title-home button i{
+    margin-left: 5px;
+    font-size: 23px;
+    transition: all 0.4s ease 0s;
+}
+
+.content-home .title-home button:hover{
+    background-color: var(--bs-color-officer);
+    color: var(--bs-white);
+}
+
+.content-home .title-home button span{
+    transition: all ease 0.4s 0s;
+}
+
+.content-home .title-home button span:hover{
+    padding-right: 15px;
+}
+/* end content */
+/* end content *//* end content *//* end content *//* end content *//* end content *//* end content *//* end content *//* end content *//* end content *//* end content *//* end content *//* end content *//* end content */
+
+.mini-serv{
+    background-color: var(--bs-white);
+}
+
+.mini-serv .max-width-mini-serv{
+    padding: 2% 15%;
+}
+
+.mini-serv .container-mini-serv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 20px;
+}
+
+.mini-serv .container-mini-serv .card-mini-serv{
+    border: 3px var(--bs-color-officer) solid;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 0 20px 0;
+}
+
+.mini-serv .container-mini-serv .card-mini-serv .box-mini-serv i{
+    color: var(--bs-color-officer);
+    font-size: 50px;
+}
+
+.mini-serv .container-mini-serv .card-mini-serv .box-mini-serv h1{
+    text-shadow: rgba(0, 0, 0, 0.212) 3px 4px 5px;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.mini-serv .container-mini-serv .card-mini-serv .box-mini-serv p{
+    font-size: 20px;
+}
+/* end mini serv */
+/* end mini serv *//* end mini serv *//* end mini serv *//* end mini serv *//* end mini serv *//* end mini serv *//* end mini serv *//* end mini serv *//* end mini serv *//* end mini serv */
+
+.service{
+    background-color: var(--bs-gray-200);
+    padding: 2% 0;
+}
+
+.service .max-width-service{
+    padding: 0% 15%;
+}
+
+.service .max-width-service h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.671);
+    text-shadow: rgb(0 0 0 / 25%) 3px 4px 4px;
+}
+
+.service .max-width-service span{
+    color: var(--bs-color-officer);
+    letter-spacing: 1px;
+}
+
+.service .container-service{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px 20px;
+    margin-top: 20px;
+}
+
+.service .container-service .card-service{
+    padding: 20px 0 20px 20px;
+    border: solid 3px var(--bs-color-officer);
+    border-radius: 5px;
+}
+
+.service .container-service .card-service .box-service i{
+    color: var(--bs-color-officer);
+    font-size: 50px;
+}
+
+.service .container-service .card-service .box-service h2{
+    font-size: 34px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.747);
+    letter-spacing: 1px;
+}
+
+.service .container-service .card-service .box-service p{
+    margin-bottom: 10px;
+}
+
+.service .container-service .card-service .box-service button{
+    padding: 1px 22px;
+    font-size: 19px;
+    font-weight: 600;
+    background: transparent;
+    border: solid 2px #16a085;
+    color: #16a085;
+    text-transform: capitalize;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.2s 0s;
+}
+
+.service .container-service .card-service .box-service button i{
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+.service .container-service .card-service .box-service button:hover{
+    background-color: rgba(0, 0, 0, 0.055);
+}
+
+/* end service */
+/* end service *//* end service *//* end service *//* end service *//* end service *//* end service *//* end service *//* end service *//* end service *//* end service *//* end service */
+
+.about{
+    padding: 2% 0;
+    background-color: var(--bs-white);
+}
+
+.about .max-width-about{
+    padding: 0 15%;
+}
+
+.about .max-width-about h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.801);
+    margin-bottom: 20px;
+    text-shadow: rgb(0 0 0 / 25%) 3px 4px 4px;
+}
+
+.about .max-width-about span{
+    color: var(--bs-color-officer);
+}
+
+.about .container-about{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.about .container-about .text-about{
+    width: 100%;
+}
+
+.about .container-about .text-about h2{
+    font-size: 45px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.842);
+    text-shadow: rgb(0 0 0 / 25%) 3px 4px 4px;
+    margin-bottom: 20px;
+}
+
+.about .container-about .text-about p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.89);
+    text-transform: capitalize;
+}
+
+.about .container-about .text-about i{
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+.about .container-about .text-about button{
+    padding: 1px 22px;
+    font-size: 19px;
+    font-weight: 600;
+    background: transparent;
+    border: solid 2px #16a085;
+    color: #16a085;
+    text-transform: capitalize;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+.about .container-about .text-about button:hover{
+    background-color: var(--bs-color-officer);
+    color: var(--bs-white);
+}
+
+/* end about */
+/* end about *//* end about *//* end about *//* end about *//* end about *//* end about *//* end about *//* end about *//* end about *//* end about *//* end about *//* end about */
+
+.doctors{
+    background-color: var(--bs-gray-200);
+    padding: 2% 0;
+}
+
+.doctors .max-width-doctors{
+    padding: 0% 15%;
+}
+
+.doctors .max-width-doctors h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-shadow: rgb(0 0 0 / 25%) 3px 4px 4px;
+    text-transform: uppercase;
+}
+
+.doctors .max-width-doctors span{
+    color: var(--bs-color-officer);
+}
+
+.doctors .container-doctors{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 20px;
+    margin-top: 20px;
+}
+
+.container-doctors .card-doctors{
+    border: solid 3px var(--bs-color-officer);
+    padding: 25px 50px;
+    border-radius: 5px;
+}
+
+.container-doctors .box-doctors .border-img{
+    text-align: center;
+    border: solid 2px var(--bs-color-officer);
+    border-radius: 5px;
+}
+
+.container-doctors .box-doctors .border-img img{
+    border-radius: 5px;
+}
+
+.container-doctors .box-doctors h2{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.815);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+
+.container-doctors .box-doctors p{
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--bs-color-officer);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container-doctors .box-doctors .icon-doctors{
+    text-align: center;
+}
+
+.container-doctors .box-doctors .icon-doctors i{
+    margin-left: 14px;
+    font-size: 30px;
+    background-color: var(--bs-color-officer);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* end doctors */
+/* end doctors *//* end doctors *//* end doctors *//* end doctors *//* end doctors *//* end doctors *//* end doctors *//* end doctors *//* end doctors *//* end doctors *//* end doctors */
+
+.book{
+    padding: 2% 0;
+    background-color: var(--bs-white);
+}
+
+.book .max-width-book{
+    padding: 0 15%;
+}
+
+.book .max-width-book h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: rgb(0 0 0 / 25%) 3px 4px 4px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+.book .max-width-book span{
+    color: var(--bs-color-officer);
+}
+
+.book .container-book{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.book .container-book .container-login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px var(--bs-color-officer);
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 5%;
+    width: 600px;
+}
+
+.book .container-book .container-login .login{
+    margin-bottom: 30px;
+    border: solid 2px var(--bs-color-officer);
+    border-radius: 2px;
+    padding: 2px 5px;
+    font-size: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px var(--bs-color-officer);
+}
+
+.book .container-book .container-login .login:focus{
+    outline: none;
+}
+
+
+.book .container-book .container-login h2{
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.795);
+    padding: 5px 0 50px 0;
+    text-align: center;
+}
+
+.writee{
+    text-align: left;
+}
+
+.writee .wase{
+    width: 100%;
+    padding-bottom: 90px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px var(--bs-color-officer);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.writee .wase:focus{
+    outline: none;
+}
+
+.center-button-book button{
+    padding: 1px 31px;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: var(--bs-color-officer);
+    border: solid 2px var(--bs-color-officer);
+    border-radius: 5px;
+    background-color: var(--bs-white);
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all ease 0.5s 0s;
+}
+
+.center-button-book button:hover{
+    background-color: var(--bs-color-officer);
+    color: var(--bs-white);
+}
+/* end login */
+/* end login *//* end login *//* end login *//* end login *//* end login *//* end login *//* end login *//* end login *//* end login *//* end login *//* end login *//* end login */
+
+.review{
+    padding: 2% 0;
+    background-color: var(--bs-gray-200);
+    height: 100%;
+    width: 100%;
+}
+
+.review .max-width-review{
+    padding: 0 15%;
+}
+
+.review .max-width-review h1{
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: rgb(0 0 0 / 25%) 3px 4px 4px;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.review .max-width-review span{
+    color: var(--bs-color-officer);
+}
+
+.review .container-review{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 20px;
+}
+
+.review .container-review .card-review{
+    border: solid 2px var(--bs-color-officer);
+    border-radius: 5px;
+    padding: 0% 0px;
+    text-align: center;
+}
+
+.card-review img{
+    border-radius: 50%;
+    border: 5px white solid;
+}
+
+.card-review h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: white;
+}
+
+
+.card-review i{
+    color: var(--bs-white);
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.card-review .box-review{
+    background-color: var(--bs-color-officer);
+    width: 100%;
+    height: 60%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 4% 0;
+}
+/* end review */
+/* end review *//* end review *//* end review *//* end review *//* end review *//* end review *//* end review *//* end review *//* end review *//* end review *//* end review *//* end review */
+
+
+
+.center-footer{
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.center-footer h3{
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.center-footer span{
+    color: var(--bs-color-officer);
+}

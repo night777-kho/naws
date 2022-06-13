@@ -1,0 +1,142 @@
+@media (max-width: 1400px){
+    .content-home{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2% 0;
+        padding: 6% 0%;
+    }
+
+    
+}
+
+@media (max-width: 1090px){
+    .mini-serv .container-mini-serv{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 20px;
+    }
+}
+
+@media (max-width: 730px){
+    .mini-serv .container-mini-serv{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px 20px;
+    }
+
+    .content-home{
+        padding: 2% 0%;
+    }
+
+    .img-home .responsive-img-home{
+        width: 600px;
+    }
+
+    .navbar-nav{
+        display: none;
+    }
+
+    .img-about .responsive-about{
+        width: 600px;
+    }
+
+    .container-img-book .responsive-book{
+        width: 600px;
+    }
+
+    .mini-serv .max-width-mini-serv{
+        padding: 2% 0%;
+    }
+
+    .service .max-width-service{
+        padding: 0% 0%;
+    }
+
+    .about .max-width-about{
+        padding: 0 0%;
+    }
+
+    .doctors .max-width-doctors{
+        padding: 0% 0%;
+    }
+
+    .book .container-book .container-login{
+        width: 400px;
+    }
+
+    .review .container-review{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px 20px;
+    }
+
+    .review .max-width-review{
+        padding: 0 0%;
+    }
+}
+
+
+
+@media (max-width: 1490px){
+    .service .container-service{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 900px){
+    .service .container-service{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1500px){
+    .about .container-about{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 1637px){
+    .doctors .container-doctors{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 900px){
+    .doctors .container-doctors{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px 20px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 1450px){
+    .book .container-book{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}
